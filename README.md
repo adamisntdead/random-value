@@ -25,7 +25,7 @@ random.randomBool()   // Generates a random Boolean
 ```
 
 ## Tests / Coverage
-
+![Coverage](https://github.com/adamisntdead/random-value/raw/master/media/test.gif)
 
 ## License
 
