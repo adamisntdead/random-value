@@ -1,6 +1,8 @@
 <h1 align="center">random-value</h1>
-<p align="center">Random Value Generation</p>
-<p align="center">[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]</p>
+
+> Random Value Generation
+>
+> [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 -----
 
