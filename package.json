@@ -1,0 +1,53 @@
+{
+  "name": "random-value",
+  "version": "0.0.0",
+  "description": "Random Value Generation",
+  "homepage": "github.com/adamisntdead/random-value",
+  "author": {
+    "name": "Adam Kelly",
+    "email": "adam.guitar12@gmail.com",
+    "url": "github.com/adamisntdead"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "random",
+    "type",
+    "generate",
+    "get",
+    "math.random"
+  ],
+  "devDependencies": {
+    "check-types": "^7.1.5",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1",
+    "jsdoc": "^3.4.3",
+    "minami": "^1.2.3",
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest --coverage",
+    "docs": "jsdoc --configure .jsdoc.json --verbose"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "adamisntdead/random-value",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "randomatic": "^1.1.6"
+  }
+}
